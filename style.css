@@ -1,0 +1,59 @@
+/* Styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0EBE3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Title styling */
+  h1 {
+    text-align: center;
+    background-color: #F3D0D7;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: Bold;
+    font-size: 40px;
+
+  }
+  
+  /* Grid layout for memes */
+  .meme-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Individual meme styling */
+  .meme {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Meme image */
+  .meme img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  /* Meme text */
+  .meme p {
+    font-size: 14px;
+    margin: 10px 0;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal
+  }
